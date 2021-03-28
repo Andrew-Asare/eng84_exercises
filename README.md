@@ -96,3 +96,20 @@ Let's loop over some lists!
 - Make a loop that iterates over each name in list_names and format's so that each name is lowercase, then add these names to a new list called list_names_lower
 - Iterate over a list of values and display if they are odd or even
 
+## 08 - Xmas Holiday List that never ends!
+Amazing, you've learned about for loops! Time to use that, plus a while loop to keep things going!
+
+### Tasks:
+Your task is to create a list of xmas gifts using control flow! Fulfill the user stories to complete the task.
+
+Hint: While loops and break conditions, use lists and append, iterate to print.
+
+User stories:
+
+- As a user, I want to be able to add items to the list, so I can read it later.
+- As a user, I want to be able to keep adding things to the list until I use exit.
+- As a user, I should be able to use the word exit in a sentence and still have the program terminate, so that anyone can use it.
+- As a user, when the program exits, I want to see the complete list in caps lock and numbered, so that I know what to buy. example:
+- RC CAR
+- PS2
+- GTA VICE CITY
