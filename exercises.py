@@ -31,7 +31,7 @@
 #     print("Have a nice life")
 #
 #
-#task2
+# task2
 # menu_food = ["Fried rice", "Fries", "Hot dog", "Salad"]
 # menu_price = ["3.00", '2.00', '5.00', '3.70']
 # users_food = []
@@ -50,13 +50,7 @@
 #
 
 
-
-
-
-
-
-
-#Task 3
+# Task 3
 
 
 #
@@ -89,7 +83,7 @@
 #     fizz_buzz.words()
 
 
-#task 4
+# task 4
 #
 # import random
 # import string
@@ -127,10 +121,6 @@
 #     calc = ScrabbleCalc()
 #     calc.calculate_score(word)
 #
-
-
-
-
 
 
 # # Task 5
@@ -244,11 +234,7 @@
 #     print('Goodbye')
 
 
-
-
-
-
-#Task 6
+# Task 6
 
 # Your going to write a story, cut it into section, store the section in a python dictionary!
 
@@ -340,16 +326,35 @@
 #     list_values_is_even()
 
 
+# Task 8
+def list():
+
+    return_list = []  # This is the list it will return
+    print("\nHO HO HO! What do you want for Christmas?")
+
+    # This will loop until the word exit forces a break
+    while True:
+        user_input = input()  # get input
+
+        if user_input.lower().count("exit") > 0:  # break if there is 1 or more instances of the word "exit" in the input
+            break
+
+        return_list.append(user_input)  # Add the item to the list
+        print("What else would you like?")
+
+    return return_list
 
 
+# This prints the list in a nice format for the user to read
+def print_list(item_list):
+    print("\nMy Christmas List:")
+    count = 1
+    for item in item_list:  # For each item in the list print it in a nice format with a unique number
+        print(f"{count}. {item.upper()}")
+        count += 1
 
 
-
-
-
-
-
-
-
-
-
+# First generate the list, then print it back to the user
+if __name__ == "__main__":
+    xmas_list = list()
+    print_list(xmas_list)
