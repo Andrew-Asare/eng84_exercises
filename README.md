@@ -87,3 +87,12 @@ You're going to write a story, cut it into sections and then store the sections 
 - Now let's add a new key:value pair.
 'hero': yourSuperHero
 
+### 07 - Loops and lists
+Let's loop over some lists!
+
+### Tasks:
+- Make a for loop using range() that prints hello 10 times
+- Create another for loop using range that asks the user for names and appends it to a list called list_names
+- Make a loop that iterates over each name in list_names and format's so that each name is lowercase, then add these names to a new list called list_names_lower
+- Iterate over a list of values and display if they are odd or even
+
